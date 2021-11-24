@@ -1,0 +1,88 @@
+ 501  cd myweb/
+  502  ls
+  503  cat ravi
+  504  cat supraja
+  505  cat >> supraja
+  506  git status
+  507  git checkout supraja
+  508  git status
+  509  cat >> supraja
+  510  git status
+  511  git add .
+  512  git add .
+  513  git status
+  514  git reset supraja
+  515  git status
+  516  git add .
+  517  git add .
+  518  git status
+  519  git commit -m 's3'
+  520  git log
+  521  git reset 086b4e857c
+  522  git status
+  523  cat supraja
+  524  git branch
+  525  git branch
+  526  git branch dev1
+  527  git branch
+  528  git push origin dev1
+  529  git branch fet1
+  530  git branch
+  531  git push origin fet1
+  532  git branch dev2
+  533  git push origin dev2
+  534  git branch
+  535  git branch -d dev2
+  536  git branch
+  537  git push origin -d dev2
+  538  git branch
+  539  git branch
+  540  git checkout dev1
+  541  git branch
+  542  git checout fet1
+  543  git checkout fet1
+  544  git branch
+  545  git checkout master
+  546  git branch
+  547  git checkout fet1
+  548  touch ravi2021
+  549  git add .
+  550  git commit -m 'ravi001'
+  551  git checkout dev1
+  552  git merge fet1
+  553  git checkout master
+  554  git merge dev1
+  555  git push origin master
+  556  git pull origin master
+  557  git push origin master
+  558  git checkout fet1
+  559  touch m1
+  560  git add .
+  561  git commit -m 'm1'
+  562  git checkout dev1
+  563  touch m2
+  564  git add .
+  565  git commit -m 'm2'
+  566  git merge fet1
+  567  git checkout master
+  568  touch m3
+  569  git add .
+  570  git commit -m 'm3'
+  571  git merge dev1
+  572  git push origin master
+  573  git checkout fet1
+  574  touch ch1
+  575  git add .
+  576  git commit -m 'ch1'
+  577  git log
+  578  git checkout dev1
+  579  git cherry-pick 02dba567d7aa
+  580  git log
+  581  git checkout master
+  582  git cherry-pick 9a78a4b670
+  583  git log
+  584  git push origin master
+  585  history
+
+srinu@DESKTOP-OAV8881 MINGW64 ~/Desktop/myweb (master)
+$

@@ -1,0 +1,76 @@
+
+[docker3@ip-172-31-37-86 ~]$ history
+    1  sudo docker pull ubuntu
+    2  sudo docker images
+    3  sudo docker login
+    4  sudo docker images
+    5  sudo docker tag ubuntu:latest prudhvi55/qa:pavan
+    6  sudo docker push prudhvi55/qa:pavan
+    7  sudo docker run -itd --name vinodh -p 40:80 ba6acccedd29
+    8  sudo docker ps
+    9  sudo docker exec -it 7e9a62e365e5 /bin/bash
+   10  sudo docker pull debian
+   11  sudo docker image
+   12  sudo docker images
+   13  sudo docker run -itd --name vamsi -p 50:80 f776cfb21b5e
+   14  sudo docker ps
+   15  sudo docker -exec vamsi /bin/bash
+   16  sudo docker exec -it vamsi /bin/bash
+   17  sudo docker run -itd --name srini alpine
+   18  sudo docker images
+   19  sudo docker ps
+   20  sudo docker run -itd --name krishna -p 60:80 alpine
+   21  sudo docker images
+   22  sudo docker ps
+   23  sudo docker exec -it krishna ash
+   24  sudo docker volumes
+   25  sudo docker volume ls
+   26  docker volume create myvol1
+   27  sudo docker volume create myvol1
+   28  sudo docker run -itd -p 8002:80 --name vasuapp -v myvol1:/myapp alpine
+   29  sudo docker ps
+   30  sudo docker exec -it vasuapp ash
+   31  sudo docker ps
+   32  sudo docker rm -f 58aa76cc97aa
+   33  exit
+   34  sudo docker run -itd -p 8003:80 --name postboxapp -v myvol1:/myapp alpine
+   35  sudo docker ps
+   36  sudo docker exec -it postboxapp ash
+   37  sudo docker ps
+   38  sudo docker rm -f 5ae046cfdc40 23bae7030ee8 a731d910da60
+   39  sudo docker ps
+   40  sudo docker network ls
+   41  sudo docker inspect bridge
+   42  sudo docker exec -it vinodh /bin/bash
+   43  sudo docker run -itd --name sunil -p 2000:80 alpine
+   44  sudo docker run -itd --name ravi -p 3000:80 alpine
+   45  sudo docker ps
+   46  sudo docker inspect bridge
+   47  sudo docker exec -it sunil ash
+   48  sudo docker network create --driver bridge javahome
+   49  sudo dcoker network ls
+   50  sudo docker network ls
+   51  sudo docker run -itd --name sriniapp3 --network javahome  alpine
+   52  sudo docker run -itd --name sriniapp4 --network javahome  alpine
+   53  sudo docker ps
+   54  sudo docker inspect javahome
+   55  sudo docker exec -it sriniapp4 ash
+   56  pwd
+   57  ls
+   58  sudo vi Dockerfile
+   59  sudo docker build -t centos:jan .
+   60  sudo docker images
+   61  sudo docker run -itd --name nag -p 1111:80 abdc2bdc6f4a
+   62  sudo dcoker ps
+   63  sudo docker ps
+   64  ls
+   65  sudo mv Dockerfile sachin
+   66  ls
+   67  sudo vi Dockerfile
+   68  sudo docker build -t ubuntu:pot .
+   69  sudo docker images
+   70  sudo docker run -itd --name gana -p 2222:80 530db0409393
+   71  sudo dcoker ps
+   72  sudo docker ps
+   73  history
+[docker3@ip-172-31-37-86 ~]$

@@ -1,0 +1,37 @@
+503  cd myweb/
+  504  ls
+  505  touch ashok
+  506  git status
+  507  git add .
+  508  git status
+  509  git commit -m 'ashok123'
+  510  git log
+  511  git push origin master
+  512  cat > himaja
+  513  cat himaja
+  514  git status
+  515  git add .
+  516  git add .
+  517  git status
+  518  git commit -m 'himaja007'
+  519  git log
+  520  git push origin master
+  521  git pull origin master
+  522  cat himaja
+  523  git pull https://github.com/srinivas1987devops/myweb.git master
+  524  cat mounica
+  525  git fetch origin master
+  526  cat ashok
+  527  git merge
+  528  cat ashok
+  529  git pull origin master
+  530  cat Leela.txt
+  531  touch kalyan
+  532  git status
+  533  git add kalyan
+  534  git status
+  535  git commit -m 'klayan000'
+  536  git push https://github.com/srinivas1987devops/myweb.git master
+  537  history
+
+srinu@DESKTOP-OAV8881 MINGW64 ~/Desktop/myweb (master)

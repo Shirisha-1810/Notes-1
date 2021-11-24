@@ -1,0 +1,54 @@
+As a root user history
+
+[root@ip-172-31-17-169 ec2-user]# history
+    1  ifconfig -a
+    2  yum install -y docker
+    3  service docker start
+    4  docker --version
+    5  ifconfig -a
+    6  useradd docker3
+    7  passwd docker3
+    8  vi /etc/ssh/sshd_config
+    9  vi /etc/sudoers
+   10  service sshd start
+   11  su - docker3
+   12  history
+[root@ip-172-31-17-169 ec2-user]#
+
+
+
+=================================================
+As a docker3 user history :
+
+[docker3@ip-172-31-17-169 ~]$ history
+    1  docker info
+    2  sudo docker info
+    3  sudo docker pull nginx
+    4  sudo docker images
+    5  sudo docker images ls
+    6  sudo docker image ls
+    7  sudo docker inspect 04661cdce581
+    8  sudo docker login
+    9  sudo docker images
+   10  sudo docker tag nginx:latest prudhvi55/dev:murari
+   11  sudo docker push prudhvi55/dev:murari
+   12  sudo docker images
+   13  sudo docker run -itd --name pavan -p 30:80 04661cdce581
+   14  sudo docker ps
+   15  sudo docker ps -a
+   16  sudo docker exec -it 69e106301df5 /bin/bash
+   17  sudo docker inspect 69e106301df5
+   18  sudo docker ps
+   19  sudo docker stop 69e106301df5
+   20  sudo docker rm 69e106301df5
+   21  sudo docker ps
+   22  sudo docker images
+   23  sudo docker rmi -f 04661cdce581
+   24  sudo docker pull prudhvi55/dev:murari
+   25  sudo dcoker image
+   26  sudo dcoker images
+   27  sudo docker images
+   28  sudo docker run -itd --name kalyan -p 50:80 04661cdce581
+   29  sudo docker ps
+   30  history
+[docker3@ip-172-31-17-169 ~]$

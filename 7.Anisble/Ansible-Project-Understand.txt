@@ -1,0 +1,72 @@
+
+
+=========================================================
+TO integrate the anible control master with Jenkins. we follow the following
+pre-requsites....
+
+1.we need to setup the ACM with NODE.
+	a. useradd  and passwd
+	b. vi /etc/ssh/sshd.cnf---remove # for password auth, and passkey(nearly 2 places)
+	c. vi /etc/sudoers ---add ansible all no passwd = all line at bottom.
+	d.service sshd start
+
+5. switching to ansible user
+=======================================================
+
+From ACM.
+
+1. ssh-copyid node1ip
+type ansible user password
+
+2. ssh-copyid node2ip
+type ansible user password
+
+communication will happend between master and nodes.
+
+sudo yum install -y ansible ( sudo amazon-linux-extras install ansible2 -y --->>>use this)
+ 
+
+ansible --version
+
+vi /etc/ansible/ansible.cfg 
+
+#inventoryfile (remove comment)
+
+vi /etc/ansible/hosts (node information)
+
+####[webserver] -->> group (comments remove)
+
+node1 ip (private Ip)
+
+node2 ip (private Ip)
+
+[databse]  -->>>group
+
+:wq!
+
+
+ansible all -m ping
+
+=====================================================
+
+su - ansible
+
+6. ssh-keygen -t rsa
+
+4 times enter (enter key press )
+
+7. sudo service sshd restart
+
+
+
+=======================================
+
+follow all above commands. just follow the instalation and install ansible in ACM and make sure the connection of node is connected to ACM.
+
+@2) step-2 is install tomcat from acm to be installed in node host,
+  for this write a playbook for tomcat installation.
+
+@3) step-3 is enter jenkins terminal similary connect to ansible machine as same procedure and write a play of copy.yml in ansible instance. 
+@4) step-4 in jenkins use plugin publishoverssh and give the credentials and connect it and execute the command to run the job.
+
+

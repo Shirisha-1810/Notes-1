@@ -1,0 +1,112 @@
+ 501  cd myweb/
+  502  ls
+  503  touch navi
+  504  git status
+  505  git add .
+  506  git status
+  507  git commit -m 'navi'
+  508  git log
+  509  git push origin master
+  510  ls
+  511  cat himaja
+  512  cat >> himaja
+  513  cat himaja
+  514  git status
+  515  git checkout himaja
+  516  git status
+  517  cat himaja
+  518  cat >> himaja
+  519  git status
+  520  git add .
+  521  git add .
+  522  git status
+  523  git reset himaja
+  524  git status
+  525  cat himaja
+  526  git status
+  527  git add .
+  528  git add .
+  529  git status
+  530  git commit -m 'h007'
+  531  git log
+  532  git reset 2677ff7c53
+  533  git status
+  534  cat himaja
+  535  git branch
+  536  git branch dev1
+  537  git branch
+  538  git push origin dev1
+  539  git branch fet1
+  540  git branch
+  541  git push origin fet1
+  542  git branch dev2
+  543  git branch
+  544  git push origin dev2
+  545  git branch
+  546  git branch -d dev2
+  547  git branch
+  548  git push origin -d dev2
+  549  git branch
+  550  git checkout fet1
+  551  git branch
+  552  git checkout dev1
+  553  git branch
+  554  git checkout master
+  555  git branch
+  556  git branch
+  557  git checkout fet1
+  558  git branch
+  559  touch creditcard
+  560  git status
+  561  git add .
+  562  git status
+  563  git commit -m 'cr'
+  564  git checkout dev1
+  565  git merge fet1
+  566  git checkout master
+  567  git merge dev1
+  568  git push origin master
+  569  git checkout fet1
+  570  touch internetbanking
+  571  git status
+  572  git add .
+  573  git status
+  574  git commit -m 'ib'
+  575  git checkout dev1
+  576  git merge fet1
+  577  git checkout master
+  578  git merge dev1
+  579  git push origin master
+  580  git checkout fet1
+  581  touch rm1
+  582  git status
+  583  git add .
+  584  git status
+  585  git commit -m 'rm1'
+  586  git checkout dev1
+  587  touch rm2
+  588  git add .
+  589  git commit -m 'rm2'
+  590  git merge fet1
+  591  git checkout master
+  592  touch rm3
+  593  git add .
+  594  git commit -m 'rm3'
+  595  git merge dev1
+  596  git push origin master
+  597  git checkout fet1
+  598  touch cr123
+  599  git add .
+  600  git commit -m 'cr123'
+  601  git log
+  602  git checkout dev1
+  603  git cherry-pick f9712e5998
+  604  git log
+  605  git checkout master
+  606  git cherry-pick b011213aed
+  607  git log
+  608  git push origin master
+  609  history
+
+srinu@DESKTOP-OAV8881 MINGW64 ~/Desktop/myweb (master)
+$

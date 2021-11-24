@@ -1,0 +1,24 @@
+ 501  cd myweb/
+  502  git tag
+  503  git tag v1.0
+  504  git tag
+  505  git push origin v1.0
+  506  git tag v1.1
+  507  git tag
+  508  git push origin v1.1
+  509  touch naresh
+  510  git status
+  511  git add .
+  512  git status
+  513  git commit -m 'n1'
+  514  git log
+  515  git tag v1.2 bb64f267e9f
+  516  git tag
+  517  git push origin v1.2
+  518  git tag
+  519  git tag -d v1.0
+  520  git tag
+  521  git push origin -d v1.0
+  522  history
+
+srinu@DESKTOP-OAV8881 MINGW64 ~/Desktop/myweb (master)

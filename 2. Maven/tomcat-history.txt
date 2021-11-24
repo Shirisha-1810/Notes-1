@@ -1,0 +1,61 @@
+root@ip-172-31-36-198 bin]# history
+    1  yum install -y java-1.8.0-openjdk-devel.x86_64
+    2  sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.54/bin/apache-tomcat-9.0.54.tar.gz
+    3  ls
+    4  tar -xvf apache-tomcat-9.0.54.tar.gz
+    5  ls
+    6  cd apache-tomcat-9.0.54/
+    7  pwd
+    8  ls
+    9  cd webapps/
+   10  pwd
+   11  cd ..
+   12  ls -l
+   13  chmod 777 webapps/
+   14  ls -l
+   15  cd webapps/
+   16  ls
+   17  ls
+   18  cd ..
+   19  ls
+   20  cd bin
+   21  ls
+   22  ./startup.sh
+   23  cd ..
+   24  cd webapps/
+   25  ls
+   26  mv myweb-8.2.0 vinod
+   27  ls
+   28  pwd
+   29  ls
+   30  cd manager/
+   31  ls
+   32  cd META-INF/
+   33  ls
+   34  vi context.xml
+   35  cd ..
+   36  cd ..
+   37  cd ..
+   38  pwd
+   39  ls
+   40  cd conf/
+   41  ls
+   42  vi tomcat-users.xml
+   43  vi tomcat-users.xml
+   44  cd ..
+   45  ls
+   46  cd bin
+   47  ls
+   48  ./shutdown.sh
+   49  ./startup.sh
+   50  cd ..
+   51  ls
+   52  cd conf/
+   53  ls
+   54  vi server.xml
+   55  cd ..
+   56  cd bin
+   57  ./shutdown.sh
+   58  ./startup.sh
+   59  history
+[root@ip-172-31-36-198 bin]#
