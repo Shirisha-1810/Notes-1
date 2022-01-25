@@ -21,6 +21,6 @@ spec:
       containers:
       - image: kammana/nodeapp:v2
         name: nodeapp
-        ports:
+        imagePullPolicy: Never  #Actually bydefault K8s will search image directlyfrom remote instead of Local repo. Hence we use Never as pullolicy for local               ports:                                                     #images and by ALways for Remote Repo.
         - containerPort: 8080
 [root@ip-172-31-6-75 ec2-user]#
